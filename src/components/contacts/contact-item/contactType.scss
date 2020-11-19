@@ -1,0 +1,38 @@
+.contact-Item-container {
+  width: 30%;
+  height: 200px;
+  flex: 1;
+  margin: 5px 10px;
+  flex-direction: column;
+  //   border: 1px solid black;
+  .social-contacts {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    .social-contacts-container {
+      display: flex;
+      width: 100%;
+      height: 50%;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      .social-contacts-logo {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        // border: 1px solid black;
+      }
+      .social-contacts-title {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid black;
+      }
+    }
+  }
+}

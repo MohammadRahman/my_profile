@@ -109,3 +109,60 @@ export const TECH_STACK = [
     ],
   },
 ];
+
+export const MENU_DATA = [
+  {
+    id: 0,
+    title: "Web Application",
+  },
+  {
+    id: 1,
+    title: "GUI App",
+  },
+  {
+    id: 2,
+    title: "data science",
+  },
+  {
+    id: 3,
+    title: "Mobile App",
+  },
+  {
+    id: 4,
+    title: "Software Testing",
+  },
+];
+export const CONTACT_DATA = [
+  {
+    id: 981231,
+    title: "portfolio",
+    types: [],
+  },
+  {
+    id: 34511,
+    title: "Social contacts",
+    types: [
+      {
+        id: 1111,
+        name: "face book",
+        logo: <i class="fab fa-facebook fa-3x"></i>,
+      },
+      {
+        id: 1112,
+        name: "Instagram",
+        logo: <i class="fab fa-instagram-square fa-3x"></i>,
+      },
+      {
+        id: 1111,
+        name: "Twiter",
+        logo: <i class="fab fa-twitter-square fa-3x"></i>,
+      },
+    ],
+  },
+  {
+    id: 1923412,
+    title: "mail",
+    phone: "xxx-xxx-xxx",
+    types: [],
+  },
+];

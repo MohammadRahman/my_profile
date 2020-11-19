@@ -1,0 +1,10 @@
+.menu-container {
+  width: 100%;
+  display: flex;
+  .menu-item-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

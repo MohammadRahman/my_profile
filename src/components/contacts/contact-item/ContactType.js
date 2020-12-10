@@ -29,7 +29,7 @@ const ContactType = ({ contact }) => {
           {contact.types.map((type) => {
             return (
               <div key={type.id} className="social-contacts-container">
-                <div className="social-contacts-logo">{type.logo}</div>
+                <div className="social-contacts-logo">{type.linkUrl}</div>
                 <div className="social-contacts-title">{type.name}</div>
               </div>
             );

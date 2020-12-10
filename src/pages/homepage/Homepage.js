@@ -3,6 +3,8 @@ import CustomButton from "../../components/button/CustomButton";
 import Contacts from "../../components/contacts/Contacts";
 import Technology from "../../components/technology/Technology";
 import Title from "../../components/title/Title";
+import Typical from "react-typical";
+import { motion } from "framer-motion";
 import "./homepage.scss";
 const Homepage = () => {
   return (
@@ -12,7 +14,27 @@ const Homepage = () => {
           <div className="content">
             <div className="header-title">
               <Title headerContent>
-                one-stop-shop for all of your Web Dev Needs.
+                <motion.p initial={{ x: -100 }} animate={{ x: 0 }}>
+                  one-stop-shop for
+                </motion.p>
+                <Typical
+                  steps={[
+                    "all",
+                    100,
+                    "all of",
+                    500,
+                    "all of your",
+                    500,
+                    "all of your Web",
+                    500,
+                    "all of your Web dev",
+                    500,
+                    "all of your Web dev needs",
+                    500,
+                  ]}
+                  loop={Infinity}
+                  // wrapper="p"
+                />
               </Title>
             </div>
             <div

@@ -4,7 +4,11 @@ const MenuItem = ({ man }) => {
   return (
     <>
       <div className="menu-item" key={man.id}>
-        <div className="menu-content">{man.title}</div>
+        <div
+          className="background-image"
+          style={{ backgroundImage: `url(${man.imageUrl})` }}
+        />
+        {/* <div className="menu-content">{man.title}</div> */}
       </div>
     </>
   );
